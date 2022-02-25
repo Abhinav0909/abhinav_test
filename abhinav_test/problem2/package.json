@@ -1,0 +1,18 @@
+{
+  "name": "problem2",
+  "version": "1.0.0",
+  "description": "Develop a HTTP microservice called prefix-management-service that exposes a GET REST API \"/prefixes\". This API receives a query parameter. This query param is called \"keywords\".",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
